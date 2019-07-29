@@ -15,7 +15,7 @@ export default class MainPage extends Component {
                     <button onClick={this.props.onClickDiscover} className="discover-btn">DISCOVER</button>
                     <button className="about-btn">ABOUT</button>
                 </div>
-                <img className="img-moon" src={Moon}/>
+                <img className="img-background" src={Moon}/>
             </div>
         )
     }
