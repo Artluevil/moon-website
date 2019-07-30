@@ -44,6 +44,17 @@ body {
   background: transparent;
 }
 
+.img-moonLayers{
+  position: absolute;
+  width: 100%;
+  margin-left: -100%;
+  height: auto;
+  z-index: 1 !important;
+  background: transparent;
+  opacity: 0;
+  visibility: hidden;
+}
+
 
 .page-name {
     position: absolute;
@@ -212,18 +223,53 @@ body {
 .size-header {
   position: absolute;
   color: white;
+  top: 10%;
+  left: 55%;
   font-family: 'Rationale', sans-serif;
-  font-size: 25px;
-  margin-left: 45%;
-  margin-top: 7%;
+}
+
+.size-description1 {
+  position: absolute;
+  color: white;
+  top: 18%;
+  left: 55%;
+  font-family: 'Rationale', sans-serif;
+}
+
+.size-description2 {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 55%;
+  font-family: 'Rationale', sans-serif;
+}
+
+.hidden-info {
+  position: absolute;
+  padding: 400px 600px;
   opacity: 0;
-  visibility: hidden;
   transition: 1s;
   transition-timing-function: ease-in-out;
 }
 
-#size:hover ~ .size-header {
-  font-size: 45px;
+#size:hover ~ .hidden-info {
+  font-size: 30px;
+  opacity: 1;
+  visibility: visible; 
+}
+
+.img-moonLayers {
+  transition: 1.5s;
+}
+
+#layers:hover ~ .img-moonLayers {
   opacity: 1;
   visibility: visible;
+}
+
+#layers:hover ~ .img-moon {
+  width: 50%;
+  margin-top: 28%;
+  margin-left: -50%;
+  opacity: 0;
 }
