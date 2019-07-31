@@ -3,7 +3,6 @@ import { IoIosArrowBack } from "react-icons/io";
 import OnlySpace from './Images/OnlySpace.jpg'
 import OnlyMoon from './Images/OnlyMoon.png'
 import MoonLayers from './Images/MoonLayers.png'
-import { whileStatement } from '@babel/types';
 
 export default class Discover extends Component {
     render() {
@@ -13,10 +12,10 @@ export default class Discover extends Component {
                     <a href="/" className="back-icon"><IoIosArrowBack style={{fontSize: '3em'}} /> <p className="back">BACK</p></a>
                     <h1 className="page-name">INFORMATIONS</h1>
                     <div>
-                        <p id="size" onClick={this.props.onClickSize} className="option">SIZE</p>
+                        <p id="size" className="option">SIZE</p>
                         <p id="layers" className="option">LAYERS</p>
-                        <p className="option">FACTS</p>
-                        <p className="option">PHASES</p>
+                        <p onClick={this.props.onClickFact} className="option">FACTS</p>
+                        <p onClick={this.props.onClickPhases} className="option">PHASES</p>
                         <div className="hidden-info">
                             <p className="size-header">MOON SIZE</p>
                             <p className="size-description1">The diameter of the Moon is only 3,474 km (2159 mi) across.
