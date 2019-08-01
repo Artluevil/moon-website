@@ -2,6 +2,11 @@ import React, { Component } from 'react'
 import Moon from './Images/Moon.jpg'
 
 export default class MainPage extends Component {
+
+    componentDidMount(){
+        document.body.style.backgroundColor = "black"
+    }
+
     render() {
         return (
             <div class="container-main">
@@ -13,7 +18,7 @@ export default class MainPage extends Component {
                 </div>
                 <div className="NavBtns">
                     <button onClick={this.props.onClickDiscover} className="discover-btn">DISCOVER</button>
-                    <button className="about-btn">ABOUT</button>
+                    <button onClick={this.props.onClickAbout} className="about-btn">ABOUT</button>
                 </div>
                 <img className="img-background" src={Moon}/>
             </div>

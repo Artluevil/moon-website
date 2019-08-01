@@ -5,6 +5,11 @@ import OnlyMoon from './Images/OnlyMoon.png'
 import MoonLayers from './Images/MoonLayers.png'
 
 export default class Discover extends Component {
+
+    componentDidMount(){
+        document.body.style.backgroundColor = "black"
+    }
+
     render() {
         return (
             <div className="container-discover">
