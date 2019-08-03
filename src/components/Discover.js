@@ -14,7 +14,7 @@ export default class Discover extends Component {
         return (
             <div className="container-discover">
                 <div>
-                    <a href="/" className="back-icon"><IoIosArrowBack style={{fontSize: '3em'}} /> <p className="back">BACK</p></a>
+                    <a href="/" className="back-icon"><IoIosArrowBack className="icon" /> <p className="back">BACK</p></a>
                     <h1 className="page-name">INFORMATIONS</h1>
                     <div>
                         <p id="size" className="option">SIZE</p>

@@ -5,7 +5,7 @@ import { IoIosArrowBack } from "react-icons/io";
 export default function About() {
     return (
         <div>
-            <a href="/discover" className="back-icon-about"><IoIosArrowBack style={{fontSize: '3em'}} /> <p className="back-about">BACK</p></a>
+            <a href="/" className="back-icon-about"><IoIosArrowBack style={{fontSize: '3em'}} /> <p className="back-about">BACK</p></a>
             <div className="about-container">
                 <h1>ABOUT</h1>
                 <h2>Website designed with passion</h2>

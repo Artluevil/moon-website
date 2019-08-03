@@ -141,6 +141,7 @@ body {
     color: white;
     border: 5px solid white;
     margin-top: 35%;
+    margin-bottom: 75%;
     margin-left: 10%;
     padding: 25px 88px;
     border-radius: 0.5em;
@@ -283,8 +284,8 @@ body {
 .fact-container {
   background: #0f0f0f;
   margin-top: 30px;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 20%;
+  margin-right: 20%;
   border: 3px solid white;
 }
 
@@ -417,4 +418,163 @@ body {
   font-size: 30px;
   margin-top: -45px;
   margin-left: 45px;
+}
+
+.icon {
+  font-size: 3em;
+}
+
+@media only screen and (max-width: 768px) {
+  .img-moonWhite {
+    width: 150%;
+    margin-left: -20%;
+    margin-top: 50%;
+  }
+  .about-container h1 {
+    margin-top: 10%;
+    margin-left: 22.5%;
+  }
+  .about-container h2 {
+    margin-top: 30%;
+  }
+  .about-container h3 {
+    margin-top: 35%;
+  }
+  .about-container p {
+    margin-top: 45%;
+    margin-left: 22.5%;
+  }
+  .img-background {
+    width: 200%;
+    margin-left: -40%;
+    margin-top: 110%;
+  }
+  .page-name {
+    margin-left: 20%;
+  }
+  .quote1 {
+    margin-top: 40%;
+    font-size: 20px;
+  }
+  .quote2 {
+    margin-top: 50%;
+    font-size: 20px;
+  }
+  .author {
+    margin-top: 60%;
+    font-size: 20px;
+  }
+  .discover-btn {
+    margin-top: 90%;
+    margin-left: 16%;
+  }
+  .about-btn {
+    margin-top: 120%;
+    margin-left: 16%;
+  }
+  .option:nth-child(1) {
+    margin-top: 22%
+  }
+  .option:nth-child(2) {
+    margin-top: 35%
+  }
+  .option:nth-child(3) {
+    margin-top: 48%
+  }
+  .option:nth-child(4) {
+    margin-top: 61%
+  }
+
+  .back-icon {
+    padding: 10px;
+  }
+
+  .container-discover .page-name{
+    margin-top: 10%;
+    font-size: 70px;
+  }
+
+  .img-moon {
+    width: 150%;
+    margin-top: 50%;
+    left: 50%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .back-icon-facts {
+    margin-top: -17%;
+    margin-left: 0%;
+  }
+  .fact-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20%;
+  }
+  .img-moonWhite {
+    width: 200%;
+    margin-left: -50%;
+    margin-top: 80%;
+  }
+  .about-container h1 {
+    margin-top: 20%;
+    margin-left: 32%;
+    font-size: 60px;
+  }
+  .about-container h2 {
+    margin-top: 45%;
+    font-size: 20px;
+    margin-left: 20%;
+  }
+  .about-container h3 {
+    margin-top: 50%;
+    font-size: 20px;
+    margin-left: 20%;
+  }
+  .about-container p {
+    margin-top: 60%;
+    margin-left: 22.5%;
+  }
+  .option:nth-child(1) {
+    margin-top: 55%;
+    font-size: 30px;
+  }
+  .option:nth-child(2) {
+    margin-top: 80%;
+    font-size: 30px;
+  }
+  .option:nth-child(3) {
+    margin-top: 105%;
+    font-size: 30px;
+  }
+  .option:nth-child(4) {
+    margin-top: 130%;
+    font-size: 30px;
+  }
+
+  .container-discover .page-name{
+    margin-top: 30%;
+    font-size: 40px;
+  }
+
+  .back-icon {
+    padding: 10px;
+  }
+  .back {
+    position: absolute;
+    margin-top: -32px;
+    font-family: 'Rationale', sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  .icon {
+    font-size: 2em;
+  }
+
+  .img-moon {
+    width: 150%;
+    margin-top: 130%;
+    left: 60%;
+  }
+
 }
