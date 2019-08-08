@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import MainPage from './components/MainPage'
 import Discover from './components/Discover'
-import Size from './components/Size'
 import DataFacts from './components/DataFacts'
 import FactsPage from './components/FactsPage'
 import Phases from './components/Phases'
