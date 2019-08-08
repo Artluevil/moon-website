@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e7529c09140693558dac43c6a4c0f23",
+    "revision": "2d3c047412eb71105b2a32d0c8c86ce7",
     "url": "/moon-website/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/moon-website/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "63387a1b5258a22cdfc5",
+    "revision": "3f2dd384a76b9ba7fa5d",
     "url": "/moon-website/static/css/main.57289160.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/moon-website/static/js/2.6ae5b0ea.chunk.js"
   },
   {
-    "revision": "63387a1b5258a22cdfc5",
-    "url": "/moon-website/static/js/main.718ec075.chunk.js"
+    "revision": "3f2dd384a76b9ba7fa5d",
+    "url": "/moon-website/static/js/main.b33d660a.chunk.js"
   },
   {
     "revision": "d8e0c347f1f91d1d1568",
