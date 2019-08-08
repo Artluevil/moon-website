@@ -2,7 +2,7 @@
   "name": "moon-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://artluevil.github.io/moon-website",
+  "homepage": "https://Artluevil.github.io/moon-website",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
@@ -10,7 +10,7 @@
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

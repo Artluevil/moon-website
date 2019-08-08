@@ -11,7 +11,7 @@ export default function About() {
                 <h2>Website designed with passion</h2>
                 <h3>for the our beutifull moon.</h3>
                 <p>Designed by: Artluevil</p>
-                <img className="img-moonWhite" src={MoonWhite} />
+                <img className="img-moonWhite" src={MoonWhite} alt="background"/>
             </div>
         </div>
     )

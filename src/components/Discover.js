@@ -31,9 +31,9 @@ export default class Discover extends Component {
                             <p className="size-description2">The surface area of the Moon is 3.793 x 107 km2.
                             That’s about the same size as Russia, Canada and the United States combined.</p>
                          </div>
-                        <img className="img-space" src={OnlySpace}/>
-                        <img className="img-moonLayers" src={MoonLayers} />
-                        <img className="img-moon" src={OnlyMoon}/>
+                        <img className="img-space" src={OnlySpace} alt="space"/>
+                        <img className="img-moonLayers" src={MoonLayers} alt="moon-layers"/>
+                        <img className="img-moon" src={OnlyMoon} alt="only-moon"/>
                     </div>
                 </div>
             </div>

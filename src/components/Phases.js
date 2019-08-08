@@ -20,23 +20,23 @@ export default class Phases extends Component {
                 <div className="container-fluid">
                     <div className="row justify-content-md-center">
                         <div style={{background: '#212121'}} className="col-lg-2 ">
-                            <img className="img-moonPhase" src={CrescentLeftMoon} />
+                            <img className="img-moonPhase" src={CrescentLeftMoon} alt="CrescentLeftMoon"/>
                             <p className="phase-name">CRESCENT MOON LEFT</p>
                         </div>
                         <div style={{background: '#333333'}} className="col-lg-2">
-                            <img className="img-moonPhase" src={QuarterLeftMoon} />
+                            <img className="img-moonPhase" src={QuarterLeftMoon} alt="QuarterLeftMoon"/>
                             <p className="phase-name">QUARTER MOON LEFT</p>
                         </div>
                         <div style={{background: '#3b3b3b'}} className="col-lg-2">
-                            <img className="img-moonPhase" src={FullMoon} />
+                            <img className="img-moonPhase" src={FullMoon} alt="FullMoon"/>
                             <p className="phase-name">FULL MOON</p>
                         </div>
                         <div style={{background: '#333333'}} className=" col-lg-2">
-                            <img className="img-moonPhase" src={QuarterRightMoon} />
+                            <img className="img-moonPhase" src={QuarterRightMoon} alt="QuarterRightMoon"/>
                             <p className="phase-name">QUARTER MOON RIGHT</p>
                         </div>
                         <div style={{background: '#212121'}} className="col-lg-2">
-                            <img className="img-moonPhase" src={CrescentMoon} />
+                            <img className="img-moonPhase" src={CrescentMoon} alt="CrescentMoon"/>
                             <p className="phase-name">CRESCENT MOON RIGHT</p>
                         </div>
                     </div>
