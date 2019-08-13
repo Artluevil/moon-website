@@ -5,18 +5,11 @@ import DataFacts from './components/DataFacts'
 import FactsPage from './components/FactsPage'
 import Phases from './components/Phases'
 import About from './components/About'
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 
 export default class Main extends Component {
     state = {
         facts: DataFacts
-    }
-    onClickDiscover = () => {
-        window.location.assign('/discover')
-    }
-
-    onClickAbout = () => {
-        window.location.assign('/about')
     }
 
     onClickFact = () => {
@@ -36,11 +29,11 @@ export default class Main extends Component {
 
     render() {
         return (
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
                 <div>
                     <Route exact path="/about" component={About} />
-                    <Route exact path="/" render={(routeProps) => (<MainPage {...routeProps} onClickAbout={this.onClickAbout} onClickDiscover={this.onClickDiscover} />)} />
-                    <Route exact path="/discover" render={(routeProps) => (<Discover {...routeProps} onClickPhases={this.onClickPhases} onClickFact={this.onClickFact} onClickSize={this.onClickSize} />)} />
+                    <Route exact path="/" component={MainPage} />
+                    <Route exact path="/discover" component={Discover} />
                     <Route exact path="/discover/facts" render={(routeProps) => (<FactsPage {...routeProps} data={this.state.facts}/>)} />
                     <Route exact path="/discover/phases" component={Phases} />
                 </div>

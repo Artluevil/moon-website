@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Moon from './Images/Moon.jpg'
+import { Link } from 'react-router-dom'
 
 export default class MainPage extends Component {
 
@@ -17,8 +18,8 @@ export default class MainPage extends Component {
                     <p className="author">― Anaïs Ni</p>
                 </div>
                 <div className="NavBtns">
-                    <button onClick={this.props.onClickDiscover} className="discover-btn">DISCOVER</button>
-                    <button onClick={this.props.onClickAbout} className="about-btn">ABOUT</button>
+                    <Link to={{pathname: '/discover'}} className="discover-btn">DISCOVER</Link>
+                    <Link to={{pathname: '/about'}} className="about-btn">ABOUT</Link> 
                 </div>
                 <img className="img-background" src={Moon} alt="moon"/>
             </div>

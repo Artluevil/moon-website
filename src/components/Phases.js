@@ -6,6 +6,7 @@ import QuarterRightMoon from './Images/QuarterRightMoon.png'
 import CrescentMoon from './Images/CrescentMoon.png'
 import { Container, Row, Col } from 'react-bootstrap'
 import { IoIosArrowBack } from "react-icons/io";
+import { Link } from 'react-router-dom'
 
 export default class Phases extends Component {
 
@@ -16,7 +17,7 @@ export default class Phases extends Component {
     render() {
         return (
             <div>
-                <a href="/discover" className="back-icon-phases"><IoIosArrowBack style={{fontSize: '3em'}} /> <p className="back-phases">BACK</p></a>
+                <Link to={{pathname: '/discover'}} className="back-icon-phases"><IoIosArrowBack style={{fontSize: '3em'}} /> <p className="back-phases">BACK</p></Link>
                 <div className="container-fluid">
                     <div className="row justify-content-md-center">
                         <div style={{background: '#212121'}} className="col-lg-2 ">
